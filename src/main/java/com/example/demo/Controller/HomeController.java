@@ -77,3 +77,5 @@ public class HomeController {
 		return service.deleteProduct(id);
 	}
 }
+
+// end class
