@@ -28,6 +28,7 @@ import com.example.demo.service.ProductService;
 @RestController
 public class HomeController {
 
+	
 	@Autowired
 	private ProductService service;
 
