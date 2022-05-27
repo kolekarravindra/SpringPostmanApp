@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.advice.ErrorDetails;
 import com.example.demo.entity.Product;
 import com.example.demo.repository.ProductRepository;
 
@@ -19,11 +18,11 @@ public class ProductService {
 	
 	public Product saveProduct(Product product) {
 		
-		if(product.getName().isEmpty() || product.getName().length()== 0 ) {
+		//if(product.getName().isEmpty() || product.getName().length()== 0 ) {
 			
-			throw new ErrorDetails();
+			//throw new ErrorDetails();
 			
-		}
+		//}
 			return productrepository.save(product);
 
 }

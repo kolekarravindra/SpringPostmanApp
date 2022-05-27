@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+// entity class
 @Entity
 @Table(name = "product_table")
 public class Product {
@@ -40,5 +41,6 @@ public class Product {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 
 }
